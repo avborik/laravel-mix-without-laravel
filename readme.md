@@ -9,7 +9,7 @@ In this lesson we will do the same thing, but with Laravel Mix.  We will create 
 To install all dependencies:
 
 ```
-npm install
+yarn install
 ```
 
 ## Usage
@@ -17,17 +17,17 @@ npm install
 Run all tasks:
 
 ```
-npm run dev
+yarn dev
 ```
 
 Run all tasks and minify:
 
 ```
-npm run production
+yarn production
 ```
 
-Run all tasks and watch for changes:
+Run all tasks and watch for changes (first run this will install additional dependencies):
 
 ```
-npm run watch
+yarn watch
 ```
