@@ -1,0 +1,8 @@
+const { mix } = require('laravel-mix');
+
+ mix.sass('src/sass/app.scss', 'dist/css')
+    .js('src/js/app.js', 'dist/js')
+    .sourceMaps()
+    .setPublicPath('dist');
+//it doesn't work on windows 10 powershell, stuck on 95% emitted, while run yurn or npm run dev. just add the .setPublicPath('');
+// thank you for this awsome guide.
